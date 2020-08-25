@@ -1,6 +1,6 @@
 # system_monitor
-> 此项目主要是作为python自动化运维课程的一个知识总结，包括：邮件发送、excel文本的编辑、系统信息的获取
-> 个人感觉功能有点鸡肋，监控系统信息的话还不如一些已有的远程连接工具好使，但还是如上一句所说，这个是一次对知识的备份和总结
+> 此项目主要是作为python自动化运维课程的一个知识总结，包括：邮件发送、excel文本的编辑、系统信息的获取,
+> 个人感觉，其实功能有点鸡肋，监控系统信息的话，还不如一些已有的远程连接工具好使，但还是如上一句所说，这个是一次对知识的备份和总结
 
 ## 🐂 功能简介
 1. sysInfo.py  ➡️  获取系统信息（如cpu、intent、disk等）
@@ -11,4 +11,7 @@
 ## 🔧 使用
 - 克隆到本地<br>
 `git clone https://github.com/chenxuefan/system_monitor.git`
-- 
+- 安装所需的库，在项目下打开终端<br>
+`pip install -r 'requrements.txt'`
+- 打开main.py开始使用
+`python3 main.py`
